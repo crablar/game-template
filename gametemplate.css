@@ -1,0 +1,47 @@
+html {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    overflow: auto;
+    background: darkslategray;
+    color: white;
+    font-size: 25px;
+}
+
+.list {
+    width: 300px ;
+    float: left;
+    padding: 0;
+    margin: 30px ;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: none ;
+}
+
+.card {
+    border-radius: 3px ;
+    border: 1px solid #666 ;
+    margin: 5px ;
+    padding: 4px ;
+    word-wrap: break-word;
+}
+
+li {
+    list-style: none;
+    font-size: 12px;
+}
+
+li a {
+    float: right;
+    margin: 3px ;
+    font-size: 12px;
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}

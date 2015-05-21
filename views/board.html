@@ -1,0 +1,30 @@
+<template name="board">
+
+  <body>
+
+    <input type="button" class="reset" value="Reset">
+
+    <div class="list" id="discard">
+      discard
+      {{#each getCards "discard"}}
+        {{> card }}
+      {{/each}}
+    </div>
+
+    <div class="list" id="in-play">
+      in play
+    {{#each getCards "inPlay"}}
+      {{> card }}
+    {{/each}}
+    </div>
+
+    <div class="list" id="hand">
+      your hand
+      {{#each getCards "hand"}}
+        {{> card }}
+      {{/each}}
+    </div>
+
+  </body>
+
+</template>
